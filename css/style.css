@@ -1,0 +1,339 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body
+{
+	font-family: 'lato';
+	font-size: 16px;
+	background: #fff;
+}
+
+.contenedor
+{
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	overflow: hidden;
+}
+
+header
+{
+	width: 100%;
+	height: 600px;
+	background-image: url(../img/portada.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+header .contenedor
+{
+	z-index: 999;
+}
+
+header .menu
+{
+	display: flex;
+	justify-content: flex-end;
+	margin: 20px 0;
+}
+
+header .menu a
+{
+	display: inline-block;
+	padding: 15px 15px;
+	font-size: 18px;
+	font-family: 'lato';
+	text-decoration: none;
+	font-weight: 300;
+	color: #fff;
+}
+
+header .menu a:hover
+{
+	text-decoration: underline;
+}
+
+header .contenedor-textos-header
+{
+	margin: 120px 0;
+	text-align: center;
+}
+
+header .contenedor-textos-header .titulo-header
+{
+	font-size: 100px;
+	color: #fff;
+	margin-bottom: 5px;
+}
+
+header .contenedor-textos-header .linea
+{
+	width: 600px;
+	margin: auto;
+	height: 3px;
+	background: #15a4fa;
+	margin-bottom: 20px;
+}
+
+header .contenedor-textos-header .subtitulo-header
+{
+	color: #fff;
+	font-size: 20px;
+	font-weight: 300;
+	margin-bottom: 20px;
+}
+
+header .contenedor-textos-header .call-to-action
+{
+	display: inline-block;
+	padding: 10px 15px;
+	border: 1px solid #15a4fa;
+	text-align: center;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 3px;
+}
+
+header .contenedor-textos-header .call-to-action:hover
+{
+	background: #15a4fa;
+	color: #fff;
+}
+
+main .acerca-de
+{
+	background: #f0f3f5;
+	padding: 54px 0;
+	text-align: center;
+}
+
+main .acerca-de .contenedor-texto-acerca .titulo-acerca
+{
+	font-size: 24px;
+	font-weight: 900;
+	color: #222;
+	margin-bottom: 20px;
+}
+
+main .acerca-de .contenedor-texto-acerca .parrafo-acerca
+{
+	color: #999999;
+	font-weight: 600;
+	margin-bottom: 20px
+}
+
+main .iconos
+{
+	padding: 30px 0;
+}
+
+.contenedor-iconos
+{
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+}
+
+.contenedor-iconos .icono-individual
+{
+	width: 33%;
+	margin: 20px 15px;
+}
+
+.contenedor-iconos .icono-individual img
+{
+	user-select: none;
+}
+
+.contenedor-iconos .icono-individual h3
+{
+	margin: 10px 0;
+
+}
+
+main .portafolio
+{
+	background: #f0f3f5;
+	padding: 60px 0;
+}
+
+main .contenedor-textos-portafolio
+{
+	text-align: center;
+}
+
+main .contenedor-textos-portafolio .titulo-portafolio
+{
+	font-size: 28px;
+	font-weight: 900;
+	margin-bottom: 20px;
+}
+
+main .contenedor-textos-portafolio .parrafo-portafolio
+{
+	font-weight: normal;
+	color: #999999;
+	margin-bottom: 34px;
+}
+
+main .portafolio .contenedor-portafolio
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+main .portafolio .contenedor-portafolio img
+{
+	width: 32%;
+	height: 32%;
+	margin: 2% 0;
+	margin-bottom: 10px;
+	border-radius: 5px;
+}
+
+main .portafolio .contenedor-portafolio img:hover
+{
+	opacity: .6;
+}
+
+footer
+{
+	width: 100%;
+	height: 600px;
+	padding: 60px 0;
+	background-image: url(../img/footer.png);
+}
+
+footer .footer-textos
+{
+	text-align: center;
+	color: #fff;
+}
+
+footer .footer-textos .titulo-footer
+{
+	font-size: 38px;
+	font-weight: 900;
+	margin-bottom: 15px;
+}
+
+footer .footer-textos .titulo-parrafo
+{
+	font-weight: 300;
+	color: #999999;
+	margin-bottom: 35px;
+}
+
+footer .formulario
+{
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+}
+
+footer .formulario .nombre-contacto,
+footer .formulario .nombre-email,
+footer .formulario .mensaje
+{
+	display: inline-block;
+	padding: 15px 20px;
+	margin-bottom: 15px;
+	background: none;
+	color: #999999;
+	border: 1px solid #999999;
+	border-radius: 3px;
+	font-family: 'lato';
+	font-weight: 300;
+	font-size: 14px;
+}
+
+footer .formulario .mensaje
+{
+	min-width: 100%;
+	max-width: 100%;
+	min-height: 150px;
+	max-height: 150px;
+}
+
+footer .formulario .center
+{
+	display: flex;
+	justify-content: flex-end;
+}
+
+footer .formulario .btn-enviar
+{
+	display: inline-block;
+	padding: 10px 20px;
+	background: none;
+	border: 1px solid #15a4fa;
+	color: #fff;
+	border-radius: 3px;
+}
+
+footer .formulario .btn-enviar:hover
+{
+	background: #15a4fa;
+	color: #fff;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 600px){
+	
+	header .menu
+	{
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+
+	header .contenedor-textos-header
+	{
+		margin: 100px 0;
+	}
+}
+
+@media screen and (max-width: 540px){
+
+	header .contenedor-textos-header .titulo-header
+	{
+		font-size: 50px;
+	}
+
+	header .contenedor-textos-header
+	{
+		margin: 135px 0;
+	}
+
+	header span
+	{
+		display: none;
+	}
+
+	.contenedor-iconos
+	{
+		flex-direction: column;
+	}
+
+	.contenedor-iconos .icono-individual
+	{
+		width: 90%;
+		margin: auto;
+		margin-bottom: 30px;
+	}
+
+	main .portafolio .contenedor-portafolio
+	{
+		justify-content: space-around;
+	}
+
+	main .portafolio .contenedor-portafolio img
+	{
+		width: 48%;
+		height: 48%;
+	}
+}
